@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// TODO: Add routes here
+
 
 sequelize.sync().then(() => {
   console.log("✅ DB Synced");
